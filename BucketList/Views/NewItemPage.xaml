@@ -27,8 +27,9 @@
                 FontSize="Small"
                 Text="{Binding Item.Description}" />
             <!--  Add CheckBox element here  -->
-            <CheckBox IsChecked="{Binding Item.IsCompleted}" />
             <Label Text="Completed" />
+            <CheckBox IsChecked="{Binding Item.IsCompleted}" />
+
         </StackLayout>
     </ContentPage.Content>
 
